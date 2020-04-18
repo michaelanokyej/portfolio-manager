@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: url("newbg.jpg") no-repeat top center;
+  background-size: cover;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+.wrapper {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50);
+  width: 100%;
+  padding: 0 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact-form {
+  max-width: 550px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 10 rgba(0, 0, 0, 0.13);
+}
+
+.input-felds {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-right: 4%;
+}
+
+.input-felds, .msg {
+  width: 48%;
+}
+
+.input-felds .input,
+ .msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+
+.msg textarea {
+  height: 200px;
+}
+
+::-webkit-input-placeholder {
+  color: #c5ecfd;
+}
+::-moz-input-placeholder {
+  color: #c5ecfd;
+}
+::-ms-input-placeholder {
+  color: #c5ecfd;
+}
+
+.btn {
+  background: #39b7dd;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.homeHeader {
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid #39b7dd;
+  padding: 4px;
+  margin-bottom: 16px;
+  color: #c5ecfd;
+}
+
+.homeBox {
+  margin: 0 auto;
+  width: 400px;
+  max-width: 550px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.homeUpdateOptions {
+  display: flex;
+  box-shadow: 0 0 10 rgba(0, 0, 0, 0.13);
+  justify-content: space-between;
+}
+
+.navBar {
+  height: 100px;
+  max-width: 550px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.50);
+  padding: 30px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navBar .navImage {
+  height: 60px;
+  width: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.homeUpdateOptions .updateOption a {
+  text-decoration: none;
+  color: #c5ecfd;
+}
+
+.homeUpdateOptions .updateOption a p {
+  display: flex;
+  justify-content: center;
+}
+
+.addLinkImage {
+  width: 100px;
+  height: 100px;
+  justify-self: center;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .contact-form {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .msg textarea {
+    height: 80px;
   }
+  .input-felds, .msg {
+    width: 100%;
+  }
+  .wrapper {
+  padding: 0 4px;
+}
+.homeBox {
+  margin: 0 auto;
+  width: 90%;
+  padding: 16px;
+}
 }
