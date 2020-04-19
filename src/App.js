@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "./components/home/Home"
+import Home from "./components/home/Home";
 import AddBlogForm from "./components/blog/AddBlogForm";
 import AddProjectForm from "./components/project/AddProjectForm";
-
 
 import "./App.css";
 
