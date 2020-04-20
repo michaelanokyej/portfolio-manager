@@ -35,4 +35,4 @@
 ## Video Demo
 
 > Follow this link for a video demo.
-> ![Video Demo](https://drive.google.com/file/d/1ae79ITUNRwVJIMnCMYe6DwlLwa0CntxD/view?usp=sharing "Video Demo")
+> ![Video Demo](public/portfolio-manager-video-demo.gif "Video Demo")
