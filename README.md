@@ -34,5 +34,5 @@
 
 ## Video Demo
 
-> Follow this link for a video demo.
+> Below is a video demo of how portfolio manager works.
 > ![Video Demo](public/portfolio-manager-video-demo.gif "Video Demo")
