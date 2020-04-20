@@ -1,69 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio Manager
 
-## Available Scripts
+## Problem
 
-In the project directory, you can run:
+> Updating my portfolio always requires me to go into my code and actually update it. 
+> To save time, I have created this manager as a helper to manage my updates to my 
+> portolio since I will be updating blog every few days.
+> This manager updates my portfolio database with blogs and projects which my portfolio client can fetch.
 
-### `npm start`
+#### Technology Used
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> React, JavaScript, CSS, NPM
+> [Check out my Portfolio](https://michaelanokyej.github.io/portfolio-manager/ "Link to Portfolio Manager screen").
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Home Screen
 
-### `npm test`
+> Portfolio Manager welcomes you with a home screen where you get to choose what to update.
+> ![Portfolio Manager Landing Screen](public/home-screen.png "Portfolio Manager Landingpage screenshot")
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Add Blog Form
 
-### `npm run build`
+> You can update the database with a new blog by submitting this form.
+> ![Add Blog Form Screen](public/add-blog-screen.png "Add Blog Form screenshot")
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Add Project Form
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+> You can update the database with a new project by submitting this form.
+> ![Add Project Form Screen](public/add-project-screen.png "Add Project Form screenshot")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Success Alert
 
-### `npm run eject`
+> You are alerted with the results when an update is attempted.
+> ![Success Alert Screen](public/post-success.png "Success Alert screenshot")
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Video Demo
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# portfolio-manager
+> Follow this link for a video demo.
+> ![Video Demo](https://drive.google.com/file/d/1ae79ITUNRwVJIMnCMYe6DwlLwa0CntxD/view?usp=sharing "Video Demo")

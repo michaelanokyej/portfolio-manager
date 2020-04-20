@@ -30,6 +30,7 @@ class AddBlogForm extends Component {
         videoDemo: "",
         description: "",
       })
+      window.alert("Your blog was successfully been added!")
     })
     .catch(err => {
       console.error({ err });
