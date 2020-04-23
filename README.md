@@ -10,7 +10,7 @@
 #### Technology Used
 
 > React, JavaScript, CSS, NPM
-> [Check out Portfolio Manager](https://michaelanokyej.github.io/portfolio-manager/ "Link to Portfolio Manager screen").
+> [Check out Portfolio Manager](https://portfolio-manager-michael-anokye.netlify.app/ "Link to Portfolio Manager screen").
 
 ## Home Screen
 
